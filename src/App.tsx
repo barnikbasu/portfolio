@@ -489,12 +489,13 @@ export default function App() {
               <div className="flex flex-col items-center text-center">
                 <div className="relative group">
                   <div className="w-[200px] h-[200px] rounded-full overflow-hidden border-[3px] border-primary p-1 bg-background relative z-10">
-                    <img 
-                      src="https://picsum.photos/seed/barnik/400/400" 
-                      alt="Barnik Basu" 
-                      className="w-full h-full rounded-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
-                      referrerPolicy="no-referrer"
-                    />
+<Image
+  src="/profile.jpg"
+  alt="Barnik Basu"
+  width={300}
+  height={300}
+  className="rounded-2xl shadow-lg"
+/>
                   </div>
                   <div className="absolute inset-0 bg-primary/20 rounded-full blur-2xl group-hover:bg-primary/40 transition-all duration-500 z-0" />
                 </div>
