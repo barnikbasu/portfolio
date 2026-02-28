@@ -494,7 +494,7 @@ export default function App() {
                 <div className="relative group">
                   <div className="w-[200px] h-[200px] rounded-full overflow-hidden border-[3px] border-primary p-1 bg-background relative z-10">
                     <img 
-                      src="/barnik.jpg" 
+                      src="/profile.jpg" 
                       alt="Barnik Basu" 
                       className="w-full h-full rounded-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
                       referrerPolicy="no-referrer"
