@@ -415,15 +415,21 @@ export default function App() {
                   className="px-8 py-3 bg-primary rounded-[8px] font-syne font-semibold text-text-primary hover:bg-accent-glow transition-all duration-300"
                 >
                   View Certifications
+                <a 
+                  href="#certifications" 
+                  className="px-8 py-3 bg-primary rounded-[8px] font-syne font-semibold text-text-primary hover:bg-accent-glow transition-all duration-300"
+                >
+                  View Certifications
                 </a>
-                href="/barnik_basu_cv.pdf"
-  download="Barnik_Basu_CV.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="px-8 py-3 border border-primary rounded-[8px] font-syne font-semibold text-text-primary hover:bg-primary transition-all duration-300 flex items-center gap-2"
->
-  Download CV <Download size={18} />
-</a>
+                
+                  href="/barnik_basu_cv.pdf"
+                  download="Barnik_Basu_CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-8 py-3 border border-primary rounded-[8px] font-syne font-semibold text-text-primary hover:bg-primary transition-all duration-300 flex items-center gap-2"
+                >
+                  Download CV <Download size={18} />
+                </a>
                 </button>
               </div>
 
