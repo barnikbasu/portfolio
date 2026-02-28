@@ -416,8 +416,14 @@ export default function App() {
                 >
                   View Certifications
                 </a>
-                <button className="px-8 py-3 border border-primary rounded-[8px] font-syne font-semibold text-text-primary hover:bg-primary transition-all duration-300 flex items-center gap-2">
-                  Download CV <Download size={18} />
+                href="/barnik_basu_cv.pdf"
+  download="Barnik_Basu_CV.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-3 border border-primary rounded-[8px] font-syne font-semibold text-text-primary hover:bg-primary transition-all duration-300 flex items-center gap-2"
+>
+  Download CV <Download size={18} />
+</a>
                 </button>
               </div>
 
