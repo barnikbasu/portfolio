@@ -494,7 +494,7 @@ export default function App() {
   alt="Barnik Basu"
   width={300}
   height={300}
-  className="rounded-2xl shadow-lg"
+  className="rounded-2xl shadow-xl border border-white/10"
 />
                   </div>
                   <div className="absolute inset-0 bg-primary/20 rounded-full blur-2xl group-hover:bg-primary/40 transition-all duration-500 z-0" />
