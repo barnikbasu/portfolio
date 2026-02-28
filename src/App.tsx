@@ -490,7 +490,7 @@ export default function App() {
                 <div className="relative group">
                   <div className="w-[200px] h-[200px] rounded-full overflow-hidden border-[3px] border-primary p-1 bg-background relative z-10">
 <Image
-  src="/profile.jpg"
+  src="profile.jpg"
   alt="Barnik Basu"
   width={300}
   height={300}
