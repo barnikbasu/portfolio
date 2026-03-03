@@ -743,7 +743,7 @@ export default function App() {
               {[
                 {
                   title: "Indian Classical Musician · Sarod Player",
-                  subtitle: "Anukriti Cultural Festival",
+                  subtitle: "Anukriti · IIIT Kalyani",
                   body: "Performed classical Sarod as solo instrumentalist at Anukriti Cultural Festival — a discipline requiring years of dedicated practice, precision, and deep pattern recognition.",
                   tags: ["Indian Classical Music", "Sarod", "Performance"]
                 },
