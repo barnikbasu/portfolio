@@ -458,7 +458,7 @@ export default function App() {
                 { text: 'Open Source', top: '20%', right: '0%', delay: 0.5 },
                 { text: 'Java', bottom: '15%', left: '5%', delay: 1 },
                 { text: 'Python', bottom: '10%', right: '10%', delay: 1.5 },
-                { text: 'Computer Science', top: '60%', left: '-15%', delay: 2 },
+                { text: 'Computer Science', top: '50%', left: '-15%', delay: 0.5 },
               ].map((badge, i) => (
                 <motion.div
                   key={i}
