@@ -496,6 +496,7 @@ export default function App() {
                     <img 
                       src="/profile.jpg" 
                       alt="Barnik Basu" 
+                      loading="lazy"
                       className="w-full h-full rounded-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
                       referrerPolicy="no-referrer"
                     />
