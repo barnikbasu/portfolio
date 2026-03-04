@@ -354,6 +354,7 @@ export default function App() {
           {/* Mobile Menu Toggle */}
           <button 
             className="md:hidden text-text-primary"
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X /> : <Menu />}
@@ -426,15 +427,21 @@ export default function App() {
               </div>
 
               <div className="flex items-center gap-6">
-                <a href="https://github.com/barnikbasu" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-primary transition-colors">
-                  <Github size={20} />
-                </a>
-                <a href="https://linkedin.com/in/barnik-basu" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-primary transition-colors">
-                  <Linkedin size={20} />
-                </a>
-                <a href="mailto:barnikbasu@gmail.com" className="text-text-muted hover:text-primary transition-colors">
-                  <Mail size={20} />
-                </a>
+                <a href="https://github.com/barnikbasu" target="_blank" rel="noopener noreferrer"
+  aria-label="Visit Barnik's GitHub profile"
+  className="text-text-muted hover:text-primary transition-colors">
+  <Github size={20} />
+</a>
+<a href="https://linkedin.com/in/barnik-basu" target="_blank" rel="noopener noreferrer"
+  aria-label="Visit Barnik's LinkedIn profile"
+  className="text-text-muted hover:text-primary transition-colors">
+  <Linkedin size={20} />
+</a>
+<a href="mailto:barnikbasu@gmail.com"
+  aria-label="Send email to Barnik"
+  className="text-text-muted hover:text-primary transition-colors">
+  <Mail size={20} />
+</a>
               </div>
             </div>
 
@@ -830,15 +837,21 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-6">
-            <a href="https://github.com/barnikbasu" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-primary transition-colors">
-              <Github size={18} />
-            </a>
-            <a href="https://linkedin.com/in/barnik-basu" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-primary transition-colors">
-              <Linkedin size={18} />
-            </a>
-            <a href="mailto:barnikbasu@gmail.com" className="text-text-muted hover:text-primary transition-colors">
-              <Mail size={18} />
-            </a>
+            <a href="https://github.com/barnikbasu" target="_blank" rel="noopener noreferrer"
+  aria-label="Visit Barnik's GitHub profile"
+  className="text-text-muted hover:text-primary transition-colors">
+  <Github size={18} />
+</a>
+<a href="https://linkedin.com/in/barnik-basu" target="_blank" rel="noopener noreferrer"
+  aria-label="Visit Barnik's LinkedIn profile"
+  className="text-text-muted hover:text-primary transition-colors">
+  <Linkedin size={18} />
+</a>
+<a href="mailto:barnikbasu@gmail.com"
+  aria-label="Send email to Barnik"
+  className="text-text-muted hover:text-primary transition-colors">
+  <Mail size={18} />
+</a>
           </div>
         </div>
       </footer>
