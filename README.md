@@ -3,7 +3,7 @@
 A high-end, dark-themed single-page developer portfolio built with **React**, **Tailwind CSS**, and **Framer Motion**. Designed for a B.Tech Computer Science student at IIIT Kalyani, highlighting a unique blend of technical expertise (Data Analytics, ML, Open Source) and artistic discipline (Indian Classical Musician - Sarod Player).
 
 ## 🚀 Live Demo
-**[barnikbasu.vercel.app](https://barnikbasu.vercel.app/)**
+**[Barnik Basu](https://barnikbasu.vercel.app/)**
 
 ![Portfolio Preview](https://raw.githubusercontent.com/barnikbasu/portfolio/main/public/preview.png)
 
