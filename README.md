@@ -96,8 +96,8 @@ Text Muted     #6B7280   Cool grey
 | | |
 |---|---|
 | **Stack** | React.js · TypeScript · Vite · Firebase · Google Maps API · Gemini AI |
-| **GitHub** | [barnikbasu/saferoute-mvp](https://github.com/barnikbasu/saferoute-mvp) |
-| **Live Demo** | [saferoute-three.vercel.app](https://saferoute-three.vercel.app) |
+| **GitHub** | [github/saferoute](https://github.com/barnikbasu/saferoute-mvp) |
+| **Live Demo** | [SafeRoute](https://saferoute-three.vercel.app) |
 | **Team** | Koustav Das · Nilavo Basu · Soumyajoy Chakraborty |
 
 ---
