@@ -454,11 +454,11 @@ export default function App() {
 
               {/* Floating Badges */}
               {[
-                { text: 'C', top: '0%', left: '5%', delay: 0 },
-{ text: 'Computer Science', top: '45%', left: '0%', delay: 2 },
-{ text: 'Java', bottom: '0%', left: '5%', delay: 1 },
+                { text: 'C', top: '10%', left: '10%', delay: 0 },
+{ text: 'Computer Science', top: '45%', left: '-10%', delay: 2 },
+{ text: 'Java', bottom: '10%', left: '5%', delay: 1 },
 { text: 'Open Source', top: '10%', right: '0%', delay: 0.5 },
-{ text: 'Python', bottom: '10%', right: '5%', delay: 1.5 },
+{ text: 'Python', bottom: '10%', right: '10%', delay: 1.5 },
               ].map((badge, i) => (
                 <motion.div
                   key={i}
