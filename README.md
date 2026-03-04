@@ -13,7 +13,7 @@
 
 ---
 
-![Portfolio Preview](https://raw.githubusercontent.com/barnikbasu/portfolio/main/public/preview.png))
+![Portfolio Preview](https://raw.githubusercontent.com/barnikbasu/portfolio/main/public/preview.png)
 
 ---
 
