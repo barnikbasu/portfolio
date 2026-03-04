@@ -5,7 +5,7 @@ A high-end, dark-themed single-page developer portfolio built with **React**, **
 ## 🚀 Live Demo
 **[Barnik Basu](https://barnikbasu.vercel.app/)**
 
-![Portfolio Preview](https://raw.githubusercontent.com/barnikbasu/portfolio/main/public/preview.png)
+## ![Portfolio Preview](https://raw.githubusercontent.com/barnikbasu/portfolio/main/public/preview.png)
 
 ## 🛠️ Tech Stack
 - **Frontend:** React 19
