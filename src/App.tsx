@@ -494,7 +494,7 @@ export default function App() {
                 <div className="relative group">
                   <div className="w-[200px] h-[200px] rounded-full overflow-hidden border-[3px] border-primary p-1 bg-background relative z-10">
                     <img 
-                      src="/profile.jpg" 
+                      src="/profile.webp" 
                       alt="Barnik Basu" 
                       loading="lazy"
                       className="w-full h-full rounded-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
