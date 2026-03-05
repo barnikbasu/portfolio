@@ -525,16 +525,50 @@ export default function App() {
                   focus to every dataset I analyze and every line of code I write.
                 </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
-                  <div className="bg-surface p-4 border-l-[3px] border-primary rounded-[4px] font-mono text-[14px] text-text-primary flex items-center gap-3">
-                    <GraduationCap className="text-primary" size={20} />
-                    IIIT Kalyani '29 · CSE
-                  </div>
-                  <div className="bg-surface p-4 border-l-[3px] border-primary rounded-[4px] font-mono text-[14px] text-text-primary flex items-center gap-3">
-                    <Music className="text-primary" size={20} />
-                    Indian Classical Musician (Sarod Player)
-                  </div>
-                </div>
+                <div className="mb-10">
+  <p className="font-mono text-[12px] text-primary uppercase tracking-wider mb-4">// education</p>
+  <div className="flex flex-col gap-4">
+
+    {/* IIIT Kalyani */}
+    <div className="bg-surface p-4 border-l-[3px] border-primary rounded-[4px] flex items-start gap-3">
+      <GraduationCap className="text-primary mt-0.5 shrink-0" size={20} />
+      <div>
+        <p className="font-syne font-semibold text-[15px] text-text-primary">Indian Institute of Information Technology, Kalyani</p>
+        <p className="font-mono text-[13px] text-primary">B.Tech · Computer Science & Engineering</p>
+        <p className="font-mono text-[12px] text-text-muted">2025 – 2029</p>
+      </div>
+    </div>
+
+    {/* St. Xavier's */}
+    <div className="bg-surface p-4 border-l-[3px] border-primary rounded-[4px] flex items-start gap-3">
+      <GraduationCap className="text-primary mt-0.5 shrink-0" size={20} />
+      <div>
+        <p className="font-syne font-semibold text-[15px] text-text-primary">St. Xavier's Institution, Panihati</p>
+        <p className="font-mono text-[13px] text-primary">Secondary & Higher Secondary Education</p>
+        <p className="font-mono text-[12px] text-text-muted">2010 – 2025</p>
+      </div>
+    </div>
+
+    {/* JEE */}
+    <div className="bg-surface p-4 border-l-[3px] border-primary rounded-[4px] flex items-start gap-3">
+      <div className="text-primary mt-0.5 shrink-0 font-syne font-bold text-[14px]">JEE</div>
+      <div>
+        <p className="font-syne font-semibold text-[15px] text-text-primary">Joint Entrance Examination (JEE) 2025</p>
+        <p className="font-mono text-[13px] text-primary">97.52 Percentile</p>
+      </div>
+    </div>
+
+    {/* Music */}
+    <div className="bg-surface p-4 border-l-[3px] border-primary rounded-[4px] flex items-start gap-3">
+      <Music className="text-primary mt-0.5 shrink-0" size={20} />
+      <div>
+        <p className="font-syne font-semibold text-[15px] text-text-primary">Indian Classical Musician</p>
+        <p className="font-mono text-[13px] text-primary">Sarod Player</p>
+      </div>
+    </div>
+
+  </div>
+</div>
 
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10 border-y border-border-custom py-8">
                   {[
@@ -574,13 +608,23 @@ export default function App() {
                 icon={<Code2 />} 
                 skills={['C', 'C++', 'Java', 'Python']} 
               />
+              <SkillCard
+    title="Frontend Development"
+    icon={<Cpu />}
+    skills={['HTML', 'CSS', 'React', 'Next.js', 'Tailwind CSS']}
+  />
+  <SkillCard
+    title="Backend & Deployment"
+    icon={<Cloud />}
+    skills={['Firebase', 'Vercel']}
+  />
               <SkillCard 
                 title="CS Fundamentals" 
                 icon={<Cpu />} 
-                skills={['Data Structures & Algorithms', 'Problem Solving', 'Code Review', 'Code Quality', 'Feature Proposal', 'System Design Basics']} 
+                skills={['Data Structures & Algorithms', 'Problem Solving', 'Code Review', 'Code Quality']} 
               />
               <SkillCard 
-                title="Data & Analytics" 
+                title="Data Science & Applications" 
                 icon={<BarChart3 />} 
                 skills={['Data Analysis', 'Data Modeling', 'Data Science (Foundational)', 'Machine Learning (Foundational)', 'Excel', 'Tableau']} 
               />
@@ -590,14 +634,9 @@ export default function App() {
                 skills={['Linear Algebra', 'Probability & Statistics', 'Physics', 'Basic Electrical & Electronics Engineering', 'Digital Logic & Circuits']} 
               />
               <SkillCard 
-                title="Cloud & Architecture" 
-                icon={<Cloud />} 
-                skills={['AWS Solutions Architecture', 'Cloud Cost Estimation', 'Scalable System Design']} 
-              />
-              <SkillCard 
                 title="Open Source & Collaboration" 
                 icon={<Users />} 
-                skills={['Git', 'GitHub', 'Open-Source Development', 'GitHub Copilot']} 
+                skills={['Git', 'GitHub', 'Open-Source Development', 'GitHub Copilot', 'LLM-Augmented Development', 'Prompt Engineering']} 
               />
             </div>
           </div>
