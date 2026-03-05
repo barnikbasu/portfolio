@@ -518,12 +518,16 @@ export default function App() {
               {/* Right - Content */}
               <div>
                 <p className="font-mono text-[16px] text-[#9CA3AF] leading-[1.7] mb-8">
-                  Computer Science undergraduate at IIIT Kalyani with a passion for 
-                  data-driven solutions and emerging technologies. Alongside code, I'm 
-                  an Indian Classical Musician (Sarod Player) — a discipline that taught 
-                  me pattern recognition, precision, and patience. I bring that same 
-                  focus to every dataset I analyze and every line of code I write.
-                </p>
+  Computer Science undergraduate at IIIT Kalyani, passionate about data structures,
+  web development, data science, and machine learning. I love building practical,
+  data-driven solutions and contributing to open source.
+  <br /><br />
+  Alongside code, I'm a <span className="text-primary font-semibold">Scholar (Sarod)</span> at
+  ITC Sangeet Research Academy, Kolkata — undergoing advanced training in Hindustani
+  Classical Music with formal training since age 5. A discipline that taught me
+  pattern recognition, precision, and patience. I bring that same focus to every
+  dataset I analyze and every line of code I write.
+</p>
 
                 <div className="mb-10">
   <p className="font-mono text-[12px] text-primary uppercase tracking-wider mb-4">// educational qualification</p>
@@ -560,12 +564,13 @@ export default function App() {
 
     {/* Music */}
     <div className="bg-surface p-4 border-l-[3px] border-primary rounded-[4px] flex items-start gap-3">
-      <Music className="text-primary mt-0.5 shrink-0" size={20} />
-      <div>
-        <p className="font-syne font-semibold text-[15px] text-text-primary">Indian Classical Musician</p>
-        <p className="font-mono text-[13px] text-primary">Sarod Player</p>
-      </div>
-    </div>
+  <Music className="text-primary mt-0.5 shrink-0" size={20} />
+  <div>
+    <p className="font-syne font-semibold text-[15px] text-text-primary">Scholar (Sarod)</p>
+    <p className="font-mono text-[13px] text-primary">ITC Sangeet Research Academy, Kolkata</p>
+    <p className="font-mono text-[12px] text-text-muted">Hindustani Classical Music</p>
+  </div>
+</div>
 
   </div>
 </div>
@@ -575,7 +580,7 @@ export default function App() {
                     { num: '10+', label: 'Certifications' },
                     { num: '3', label: 'Industry Simulations' },
                     { num: '2', label: 'Open Source Badges' },
-                    { num: '1', label: 'Classical Instrument' },
+                    { num: '1', label: 'ITC SRA Scholar' },
                   ].map((stat, i) => (
                     <div key={i} className="flex flex-col items-center text-center px-2">
                       <span className="font-syne font-bold text-[24px] text-primary">{stat.num}</span>
@@ -798,18 +803,18 @@ export default function App() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
               {[
-                {
-                  title: "Indian Classical Musician · Sarod Player",
-                  subtitle: "Anukriti · IIIT Kalyani",
-                  body: "Performed classical Sarod as solo instrumentalist at Anukriti Cultural Festival — a discipline requiring years of dedicated practice, precision, and deep pattern recognition.",
-                  tags: ["Indian Classical Music", "Sarod", "Performance"]
-                },
-                {
-                  title: "Indian Classical Musician · Sarod Player",
-                  subtitle: "Xavi Carnival · St. Xavier's Institution",
-                  body: "Represented classical Sarod at Xavi Carnival, one of Kolkata's prominent school cultural festivals — bringing Indian classical music to a vibrant stage.",
-                  tags: ["Indian Classical Music", "Sarod", "Kolkata"]
-                }
+  {
+    title: "Scholar (Sarod)",
+    subtitle: "ITC Sangeet Research Academy, Kolkata",
+    body: "Undergoing advanced training in Hindustani Classical Music at ITC SRA — one of India's most prestigious classical music institutions. Formally trained since age 5, with over a decade of dedicated practice in the Sarod tradition.",
+    tags: ["ITC Sangeet Research Academy", "Sarod", "Hindustani Classical Music"]
+  },
+  {
+    title: "Solo Performer · Sarod",
+    subtitle: "Anukriti, IIIT Kalyani  ·  Xavi Carnival, St. Xavier's Institution",
+    body: "Performed classical Sarod as solo instrumentalist at college and school cultural festivals — bringing Hindustani Classical Music to vibrant stages and diverse audiences.",
+    tags: ["Solo Performance", "Sarod", "Kolkata"]
+  }
               ].map((card, i) => (
                 <div key={i} className="bg-surface p-6 rounded-[12px] border-l-4 border-primary flex flex-col">
                   <div className="text-3xl mb-4">🎵</div>
