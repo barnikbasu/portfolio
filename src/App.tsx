@@ -806,7 +806,7 @@ export default function App() {
   {
     title: "Scholar (Sarod)",
     subtitle: "ITC Sangeet Research Academy, Kolkata",
-    body: "Undergoing advanced training in Hindustani Classical Music at ITC SRA — one of India's most prestigious classical music institutions. Formally trained since age 5, with over a decade of dedicated practice in the Sarod tradition.",
+    body: "Undergoing advanced training in Hindustani Classical Music at ITC SRA — one of India's most prestigious classical music institutions. Formal training since age 5, with over a decade of dedicated practice in the Sarod tradition.",
     tags: ["ITC Sangeet Research Academy", "Sarod", "Hindustani Classical Music"]
   },
   {
