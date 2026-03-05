@@ -526,7 +526,7 @@ export default function App() {
                 </p>
 
                 <div className="mb-10">
-  <p className="font-mono text-[12px] text-primary uppercase tracking-wider mb-4">// education</p>
+  <p className="font-mono text-[12px] text-primary uppercase tracking-wider mb-4">// educational qualification</p>
   <div className="flex flex-col gap-4">
 
     {/* IIIT Kalyani */}
