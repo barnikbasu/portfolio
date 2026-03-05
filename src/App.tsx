@@ -251,7 +251,7 @@ export default function App() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
       
-      const sections = ['about', 'skills', 'certifications', 'beyond', 'contact'];
+      const sections = ['about', 'skills', 'projects', 'certifications', 'beyond', 'contact'];
       for (const section of sections) {
         const el = document.getElementById(section);
         if (el) {
@@ -308,6 +308,7 @@ export default function App() {
   const navLinks = [
     { name: 'About', id: 'about' },
     { name: 'Skills', id: 'skills' },
+    { name: 'Projects', id: 'projects' },
     { name: 'Certifications', id: 'certifications' },
     { name: 'Beyond the Code', id: 'beyond' },
     { name: 'Contact', id: 'contact' },
@@ -618,7 +619,7 @@ export default function App() {
                 subtitle="AI-powered navigation for safer travel at night"
                 date="Dec 2025 – Jan 2026"
                 association="Associated with IIIT Kalyani"
-                body="SafeRoute is an AI-powered safety-first navigation platform that helps users choose safer travel routes at night. Built as a live MVP and selected among the Top 10 teams at InnovateX Hackathon."
+                body="Night travel poses real safety risks — especially for solo travelers. SafeRoute solves this by scoring routes 0–100 for safety using AI and real-time signals, so users always choose the safer path, not just the faster one. Built as a live MVP, selected Top 10 at InnovateX Hackathon."
                 features={['🛡️ Safety-aware route scoring (0–100)', '🤖 AI safety explanations via Gemini', '🗺️ Multi-route comparison navigation', '🆘 SOS & emergency-first design']}
                 tags={['React.js', 'TypeScript', 'Vite', 'Tailwind CSS', 'Firebase', 'Google Maps API', 'Google Gemini API', 'AI']}
                 contributors="Team #include: Koustav Das · Nilavo Basu · Soumyajoy Chakraborty"
@@ -733,6 +734,15 @@ export default function App() {
                 body="Earned a Contributor Badge at Open Source Connect 2026, recognizing active contributions to open-source projects and the developer community."
                 tags={['Open Source', 'Contributor', 'Community']}
               />
+              <CertCard 
+                icon="❄️"
+                title="Winter of Code 5.0"
+                issuer="Winter of Code"
+                date="Jan 2026"
+                recognition="Contributor Badge"
+                body="Recognized as a contributor in Winter of Code 5.0 — an open-source program encouraging student developers to contribute to meaningful projects."
+                tags={['Open Source', 'Winter of Code', 'Development']}
+              />
             </div>
           </div>
         </section>
@@ -833,7 +843,7 @@ export default function App() {
           </div>
           
           <div className="font-mono text-[12px] text-text-muted text-center">
-            © 2026 · Built with v0.dev · Deployed on Vercel
+            &copy; 2026 · Built with v0.dev · Deployed on Vercel
           </div>
 
           <div className="flex items-center gap-6">
