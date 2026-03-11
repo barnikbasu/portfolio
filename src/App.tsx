@@ -887,7 +887,7 @@ export default function App() {
           </div>
           
           <div className="font-mono text-[12px] text-text-muted text-center">
-            &copy; 2026 · Built with v0.dev · Deployed on Vercel
+            &copy; 2026 · Built with ❤️ by Barnik Basu
           </div>
 
           <div className="flex items-center gap-6">
